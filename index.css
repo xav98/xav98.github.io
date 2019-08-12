@@ -1,0 +1,147 @@
+/*___Geral___*/
+.container-fluid{
+	padding: 120px 0px 120px 0px;
+}
+.title{
+	font-family: merienda;
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+	text-shadow: 0px 1px 3px #ffff33;
+}
+.text{
+	font-family: lora;
+	color: #626262;
+	font-size: 14px;
+	font-weight:600;
+	letter-spacing: 0.9px;
+	text-transform: uppercase;
+}
+
+/* Barra de Navegação */
+#barra_nav{
+	background-color: #000;
+	opacity: 0.9;
+	box-shadow: 0px 3px 5px #232323;
+}
+#nav_item{
+	color: #FCFCFC;
+	font-family: Merienda;
+	text-transform: uppercase;
+}
+#nav_item:hover{
+	color: #ffff44;
+	text-decoration: underline;
+	transform: scale(1.1);
+	-ms-transform: scale(1.1);	/* IE 9 */
+	-webkit-transform: scale(1.1);	/* Safari */
+	transition-duration: 0.4s;
+}
+
+/* Seção Inicial */
+#Inicio{
+	background: url(midia/stars4.jpg) no-repeat center fixed;
+	padding-bottom: 0px;
+}
+.img_perfil{
+	background: url(midia/foto.png) no-repeat center;
+	background-size: cover;
+	width: 210px;
+	height: 210px;
+	margin-left: 70px;
+	border-radius: 50%;
+}
+#icon{
+	font-size: 42px;
+	color: #232323;
+	opacity: 0.8;
+	margin: 0px 10px 10px 10px;
+	text-shadow: 0px 1px 4px #ffff33;
+}
+#icon:hover{
+	opacity: 1;
+	transform: scale(1.2);
+	-ms-transform: scale(1.2);	/* IE 9 */
+	-webkit-transform: scale(1.2);	/* Safari */
+	transition-duration: 0.3s;
+}
+
+/* Seção Time Line */
+#Timeline{
+	background: url(midia/bgtl.png) no-repeat center fixed;
+	background-size: cover;
+}
+
+/* Seção Portfólio */
+#Sobre, #Portfólio{
+	background-color: #fcfcfc;
+}
+#bp{
+	position:absolute;
+	right:0;
+}
+.img{
+	max-width: 100%;
+	min-width: 100%;
+	min-height: 180px;
+	max-height: 180px;
+	margin: 10px 0px 10px 0px;
+	box-shadow: 0px 1px 5px grey;
+}
+.imgf{
+	max-width: 100%;
+	max-height: 100%;
+}
+.text_port{
+	color: #fcfcfc;
+	margin: 10px 15px 10px 15px;
+	opacity: 0;
+}
+.text_port:hover{
+	background: rgba(0, 0, 0, 0.8);
+	opacity: 1;
+	transition-duration: 0.5s;
+}
+
+/* Seção Contato */
+#Contato{
+	background: url(midia/bgc.jpg) no-repeat center fixed;
+	background-size: cover;
+}
+.map-container{
+	background-color: rgb(35,35,35,0.6);
+	height: 450px;
+	overflow: hidden;
+	position: relative;
+	padding-bottom: 56.25%;
+	border: 3px double #fcfcfc;
+	border-radius: 10px;
+}
+.map-container iframe{
+	left: 12px;
+	top: 10px;
+	width: 96%;
+	height: 95%;
+	position:absolute;
+}
+.needs-validation{
+	background-color: rgb(35,35,35,0.6);
+	border: 3px double #fcfcfc;
+	padding: 10px;
+	border-radius: 10px;
+}
+#name,#phone,#email,#FormTextarea{
+	background-color: rgb(35,35,35);
+	font-family: merienda;
+	letter-spacing: 1.1px;
+	color: #fcfcfc;
+}
+
+/* Footer */
+.ft{
+	background-color: #111;
+	color: #fcfcfc;
+	font-weight: 600;
+	padding: 20px 0px 10px 0px;
+}
