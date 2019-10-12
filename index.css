@@ -41,8 +41,9 @@
 
 /* Seção Inicial */
 #Inicio{
-	background: url(midia/stars4.jpg) no-repeat center fixed;
-	padding: 0px 0pz 100px 0px;
+	background: url(midia/night.jpg) no-repeat center fixed;
+	background-size: cover;
+	margin: -80px 0px -120px 0px;
 }
 .img_perfil{
 	background: url(midia/foto.png) no-repeat center;
