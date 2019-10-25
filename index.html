@@ -11,10 +11,19 @@
 		<link rel="stylesheet" type="text/css" href="index.css"/>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 		
 		<!--- Links para fontes de texto --->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merienda">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jokerman">
+		
+		<!-- Links para o slick -->
+		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+		<script type="text/javascript" src="slick/slick.min.js"></script>
 	</head>
 	
 	<body>
@@ -31,6 +40,7 @@
 					<li class="nav-item"><a id="nav_item" class="nav-link" href="#Timeline">Timeline</a></li>
 					<li class="nav-item"><a id="nav_item" class="nav-link" href="#Portfólio">Portfolio</a></li>
 					<li class="nav-item"><a id="nav_item" class="nav-link" href="#Contato">Contact</a></li>
+					<li class="nav-item"><a id="nav_item" class="nav-link" href="#Criacoes">Criations</a></li>
 				</ul>
 			</div>  
 		</nav>
@@ -43,8 +53,7 @@
 					<div class="img_perfil"></div>
 				</div>
 			
-				<div class="col-sm-4">
-					<br><br><br>
+				<div class="col-sm-4"><br><br><br>
 					<p class="title text-white">Xavier <i class="fa fa-bolt text-warning"></i>
 					</p>
 				</div>
@@ -57,33 +66,34 @@
 		<!--- Seção Habilidades --->
 		<div id="Sobre" class="container-fluid">
 			<div class="row">
-			
 				<div class="col-sm-12">
+					<h1 class="title">Habilidades</h1>
 				</div>
+				
 				<div class="col-sm-4">
-					<p class="title-j text-center">About - Skill 01</p>
+					<p class="title-j text-center">Skill 1</p>
 					<div class="jumbotron">
 						<p class="text-j text-center"><i>Solda com Estanho</i></p>
 						<div class="sk1"></div>
-						<p class="text">A solda permite</p>
+						<p class="text text-justify">A solda permite o conserto e/ou a criação de diversos eletrônicos, como consertar fones de ouvido e incrementar objetos quaisquer com led's, por exemplo.</p>
 					</div>
 				</div>
 				
 				<div class="col-sm-4">
-					<p class="title-j text-center">About - Skill 02</p>
+					<p class="title-j text-center">Skill 2</p>
 					<div class="jumbotron">
 						<p class="text-j text-center"><i>Arduíno</i></p>
 						<div class="sk2"></div>
-						<p class="text">com o Arduíno</p>
+						<p class="text text-justify">com o Arduíno é possível quase tudo, desde automação em geral a confecção de protótipos e robôs, seja em miniatura para demonstração ou em escala normal.</p>
 					</div>
 				</div>
 			
 				<div class="col-sm-4">
-					<p class="title-j text-center">About - Skill 03</p>
+					<p class="title-j text-center">Skill 3</p>
 					<div class="jumbotron">
 						<p class="text-j text-center"><i>Criatividade</i></p>
 						<div class="sk3"></div>
-						<p class="text">Essa skill realça as outras</p>
+						<p class="text text-justify">Essa skill realça as outras, não só por gerar as ideias a serem executadas como também para pensar em métodos para fazer as mesmas, melhor característica.</p>
 					</div>
 				</div>
 				
@@ -98,21 +108,21 @@
 			
 				<div class="col-sm-8">
 					<h1 class="title">Timeline</h1>
-					<p class="text text-center">✩ 10/2019 - Participando do Processo Seletivo do Projeto "Um Robô por Aluno" (URA)</p>
-					<p class="text text-center">✩ 08/2019 - Fezendo um Projeto de Lógica de Programação (LOP) usando Arduíno, na UFRN</p>
-					<p class="text text-center">✩ 02/2019 - Começou o curso de Bacharel em Ciência & Tecnologia na UFRN - Natal/RN</p>
-					<p class="text text-center">✩ 12/2018 - Terminou o curso Técnico Integrado em Informática no IFRN - Ceará-Mirim</p>
-					<p class="text text-center">✩ 10/2018 - Participou da SECITEX IFRN - campus Natal-Central com a equipe de robótica</p>
-					<p class="text text-center">✩ 07/2018 - Participou da OBR IFRN - campus Natal-Central com a equipe de robótica</p>
-					<p class="text text-center">✩ 11/2017 - Participou da SECITEX IFRN - campus Caicó Juntamente a equipe de robótica</p>
-					<p class="text text-center">✩ 08/2017 - Participou da OBR IFRN - campus Natal-Central com a equipe de robótica</p>
-					<p class="text text-center">✩ 07/2017 - Confeccionou uma "Armadura de Led's" feita de Papelão com elástico e velcro</p>
-					<p class="text text-center">✩ 06/2017 - Realizou um Projeto de pesquisa Usando Arduino, (RFID) com NodeMCU e Relé</p>
-					<p class="text text-center">✩ 05/2017 - Selecionado no Processo para Equipe de Robótica do IFRN campus Ceará-Mirim</p>
-					<p class="text text-center">✩ ../2015 - Conseguiu um Ferro de Solda e Começou a Consertar Fones de Ouvido no IF-CM</p>
-					<p class="text text-center">✩ 05/2014 - Começou o curso Técnico Integrado de Nível Médio em Informática no IFRN-CM</p>
-					<p class="text text-center">✩ ../2006 - Começou a desmontar alguns eletronicos do Pai kkkkkkk(exemplo: receptores)</p>
 					<p class="text text-center">✩ 12/1998 - Nasceu</p>
+					<p class="text text-center">✩ ../2006 - Começou a desmontar alguns eletronicos do Pai kkkkkkk(exemplo: receptores)</p>
+					<p class="text text-center">✩ 05/2014 - Começou o curso Técnico Integrado de Nível Médio em Informática no IFRN-CM</p>
+					<p class="text text-center">✩ ../2015 - Conseguiu um Ferro de Solda e Começou a Consertar Fones de Ouvido no IF-CM</p>
+					<p class="text text-center">✩ 05/2017 - Selecionado no Processo para Equipe de Robótica do IFRN campus Ceará-Mirim</p>
+					<p class="text text-center">✩ 06/2017 - Realizou um Projeto de pesquisa Usando Arduino, (RFID) com NodeMCU e Relé</p>
+					<p class="text text-center">✩ 07/2017 - Confeccionou uma "Armadura de Led's" feita de Papelão com elástico e velcro</p>
+					<p class="text text-center">✩ 08/2017 - Participou da OBR IFRN - campus Natal-Central com a equipe de robótica</p>
+					<p class="text text-center">✩ 11/2017 - Participou da SECITEX IFRN - campus Caicó Juntamente a equipe de robótica</p>
+					<p class="text text-center">✩ 07/2018 - Participou da OBR IFRN - campus Natal-Central com a equipe de robótica</p>
+					<p class="text text-center">✩ 10/2018 - Participou da SECITEX IFRN - campus Natal-Central com a equipe de robótica</p>
+					<p class="text text-center">✩ 12/2018 - Terminou o curso Técnico Integrado em Informática no IFRN - Ceará-Mirim</p>
+					<p class="text text-center">✩ 02/2019 - Começou o curso de Bacharel em Ciência & Tecnologia na UFRN - Natal/RN</p>
+					<p class="text text-center">✩ 08/2019 - Fezendo um Projeto de Lógica de Programação (LOP) usando Arduíno, na UFRN</p>
+					<p class="text text-center">✩ 10/2019 - Participando do Processo Seletivo do Projeto "Um Robô por Aluno" (URA)</p>
 				</div>
 				
 				<div class="col-sm-2"></div>
@@ -146,7 +156,7 @@
 				<div class="col-sm-3">
 					<img class="img rounded" src="midia/s2.png">
 					<div class="text_port card-img-overlay">
-						<p class="card-text">Segunda Tentativa: agora tem bootstrap. ainda há muito do layout antigo.</p><br>
+						<p class="card-text">Versão 03: bootstrap instaurado kkk. layout baseado nos sites dos MEEEEMBROOS da eject</p><br>
 						<a class="btn btn-outline-primary btn-block" data-toggle="modal" data-target="#myModal2">Vizualizar</a>
 					</div>
 					<!-- The Modal -->
@@ -162,7 +172,7 @@
 				<div class="col-sm-3">
 					<img class="img rounded" src="midia/s3.png">
 					<div class="text_port card-img-overlay">
-						<p class="card-text">Versão 03: bootstrap instaurado kkk. layout baseado nos sites dos MEEEEMBROOS da eject</p><br>
+						<p class="card-text">version_N-05: site verificado em varios celulares, é responsivo sim!.</p><br>
 						<a class="btn btn-outline-primary btn-block" data-toggle="modal" data-target="#myModal3">Vizualizar</a>
 					</div>
 					<!-- The Modal -->
@@ -176,26 +186,26 @@
 					</div>
 				</div>
 				<div class="col-sm-3">
-					<img class="img rounded" src="midia/s4.png">
+					<img class="img rounded" src="midia/s4.jpg">
 					<div class="text_port card-img-overlay">
-						<p class="card-text">Gear Fouth (fans de one piece entenderão): site remasterizado após muito XP adquirido.</p><br>
-						<a class="btn btn-outline-primary btn-block" data-toggle="modal" data-target="#myModal4">Vizualizar</a>
+						<p class="card-text">E esse é meu carrinho Arduíno-Bluetooth.. com meu som de carro adaptado no quarto e fita de LED.</p><br>
+						<a class="btn btn-outline-primary btn-block" data-toggle="modal" data-target="#myModal14">Vizualizar</a>
 					</div>
 					<!-- The Modal -->
-					<div class="modal fade" id="myModal4">
+					<div class="modal fade" id="myModal14">
 						<div class="modal-dialog modal-dialog-scrollable modal-lg">
 							<div class="modal-content">
 								<button id="bp" type="button" class="btn text-light bg-danger" data-dismiss="modal">&times;</button>
-								<img class="imgf" src="midia/s4.png"><img>
+								<img class="imgf" src="midia/s4.jpg"><img>
 							</div>
 						</div>
 					</div>
 				</div>
-
+				
 				<div class="col-sm-3">
-					<img class="img rounded" src="midia/s5.png">
+					<img class="img rounded" src="midia/s5.jpeg">
 					<div class="text_port card-img-overlay">
-						<p class="card-text">Ultimate version_N-05: site verificado em varios celulares, é responsivo sim!.</p><br>
+						<p class="card-text">2017 - modelo usado na OBR, IFRN campus Natal-Central</p><br>
 						<a class="btn btn-outline-primary btn-block" data-toggle="modal" data-target="#myModal5">Vizualizar</a>
 					</div>
 					<!-- The Modal -->
@@ -203,7 +213,7 @@
 						<div class="modal-dialog modal-dialog-scrollable modal-lg">
 							<div class="modal-content">
 								<button id="bp" type="button" class="btn text-light bg-danger" data-dismiss="modal">&times;</button>
-								<img class="imgf" src="midia/s5.png"><img>
+								<img class="imgf" src="midia/s5.jpeg"><img>
 							</div>
 						</div>
 					</div>
@@ -211,7 +221,7 @@
 				<div class="col-sm-3">
 					<img class="img rounded" src="midia/s6.jpeg">
 					<div class="text_port card-img-overlay">
-						<p class="card-text">2017 - modelo usado na OBR, IFRN campus Natal-Central</p><br>
+						<p class="card-text">Rôbo feito em 2018.2 p/ SECITEX IFRN campus Caicó (melhor modelinho até agr).</p><br>
 						<a class="btn btn-outline-primary btn-block" data-toggle="modal" data-target="#myModal6">Vizualizar</a>
 					</div>
 					<!-- The Modal -->
@@ -227,7 +237,7 @@
 				<div class="col-sm-3">
 					<img class="img rounded" src="midia/s7.jpg">
 					<div class="text_port card-img-overlay">
-						<p class="card-text">Robô seguidor de linha usado na OBR 2018 - IFRN campus Natal-Central</p><br>
+						<p class="card-text">Capitães das equipes 2, 1, 3 e 4 de robótica, respectivamente (menos o branquelo em pé, de preto)</p><br>
 						<a class="btn btn-outline-primary btn-block" data-toggle="modal" data-target="#myModal7">Vizualizar</a>
 					</div>
 					<!-- The Modal -->
@@ -241,82 +251,17 @@
 					</div>
 				</div>
 				<div class="col-sm-3">
-					<img class="img rounded" src="midia/s8.jpeg">
-					<div class="text_port card-img-overlay">
-						<p class="card-text">Rôbo feito em 2018.2 p/ SECITEX IFRN campus Caicó (melhor modelinho até agr).</p><br>
-						<a class="btn btn-outline-primary btn-block" data-toggle="modal" data-target="#myModal8">Vizualizar</a>
-					</div>
-					<!-- The Modal -->
-					<div class="modal fade" id="myModal8">
-						<div class="modal-dialog modal-dialog-scrollable modal-lg">
-							<div class="modal-content">
-								<button id="bp" type="button" class="btn text-light bg-danger" data-dismiss="modal">&times;</button>
-								<img class="imgf" src="midia/s8.jpeg"><img>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<div class="col-sm-3">
-					<img class="img rounded" src="midia/s9.jpg">
-					<div class="text_port card-img-overlay">
-						<p class="card-text">Capitães das equipes 2, 1, 3 e 4 de robótica, respectivamente (menos o branquelo em pé, de preto)</p><br>
-						<a class="btn btn-outline-primary btn-block" data-toggle="modal" data-target="#myModal9">Vizualizar</a>
-					</div>
-					<!-- The Modal -->
-					<div class="modal fade" id="myModal9">
-						<div class="modal-dialog modal-dialog-scrollable modal-lg">
-							<div class="modal-content">
-								<button id="bp" type="button" class="btn text-light bg-danger" data-dismiss="modal">&times;</button>
-								<img class="imgf" src="midia/s9.jpg"><img>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-3">
-					<img class="img rounded" src="midia/s10.jpg">
-					<div class="text_port card-img-overlay">
-						<p class="card-text">É o seguinte, esse sou eu... ao lado do Iron Man?! é isso, sei o que dizer sobre isso não.</p><br>
-						<a class="btn btn-outline-primary btn-block" data-toggle="modal" data-target="#myModal10">Vizualizar</a>
-					</div>
-					<!-- The Modal -->
-					<div class="modal fade" id="myModal10">
-						<div class="modal-dialog modal-dialog-scrollable modal-lg">
-							<div class="modal-content">
-								<button id="bp" type="button" class="btn text-light bg-danger" data-dismiss="modal">&times;</button>
-								<img class="imgf" src="midia/s10.jpg"><img>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-3">
-					<img class="img rounded" src="midia/s11.jpg">
+					<img class="img rounded" src="midia/s8.jpg">
 					<div class="text_port card-img-overlay">
 						<p class="card-text">após um ano a nova versão era melhor adaptada ao corpo, mas ainda fazia calor (aah Caicó).</p><br>
-						<a class="btn btn-outline-primary btn-block" data-toggle="modal" data-target="#myModal11">Vizualizar</a>
+						<a class="btn btn-outline-primary btn-block" data-toggle="modal" data-target="#myModal18">Vizualizar</a>
 					</div>
 					<!-- The Modal -->
-					<div class="modal fade" id="myModal11">
+					<div class="modal fade" id="myModal18">
 						<div class="modal-dialog modal-dialog-scrollable modal-lg">
 							<div class="modal-content">
 								<button id="bp" type="button" class="btn text-light bg-danger" data-dismiss="modal">&times;</button>
-								<img class="imgf" src="midia/s11.jpg"><img>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-3">
-					<img class="img rounded" src="midia/s12.jpg">
-					<div class="text_port card-img-overlay">
-						<p class="card-text">E esse é meu carrinho Arduíno-Bluetooth.. com meu som de carro adaptado no quarto e fita de LED.</p><br>
-						<a class="btn btn-outline-primary btn-block" data-toggle="modal" data-target="#myModal12">Vizualizar</a>
-					</div>
-					<!-- The Modal -->
-					<div class="modal fade" id="myModal12">
-						<div class="modal-dialog modal-dialog-scrollable modal-lg">
-							<div class="modal-content">
-								<button id="bp" type="button" class="btn text-light bg-danger" data-dismiss="modal">&times;</button>
-								<img class="imgf" src="midia/s12.jpg"><img>
+								<img class="imgf" src="midia/s8.jpg"><img>
 							</div>
 						</div>
 					</div>
@@ -350,14 +295,33 @@
 				</div>
 			</div>			
 		</div>
+		
+		<!--- Seção Criações --->
+		<div id="Criacoes" class="container-fluid">
+			<div class="row">
+			
+				<div class="col-sm-12">
+					<h1 class="title">Criations</h1>
+				</div>
+				
+				<div class= "slick">
+					<img class="img_carossel" src="midia/c0.jpeg"></img>
+					<img class="img_carossel" src="midia/c1.jpg"></img>
+					<img class="img_carossel" src="midia/c2.jpeg"></img>
+					<img class="img_carossel" src="midia/c3.jpg"></img>
+					<img class="img_carossel" src="midia/c4.jpg"></img>
+					<img class="img_carossel" src="midia/c5.jpg"></img>
+					<img class="img_carossel" src="midia/c6.jpg"></img>
+				</div>
+				
+			</div>
+		</div>
 
 		<!--- Footer --->
 		<footer class="text-center ft">
-			<a><a href="http://lattes.cnpq.br/4478284811855294"><i class="fa fa-bolt text-warning"></i></a> Desenvolvido por Paulo Xavier © 2019.1</a>
+			<a><a href="http://lattes.cnpq.br/4478284811855294"><i class="fa fa-bolt text-warning"></i></a> Copyright © 2019 | Paulo Xavier</a>
 		</footer>
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+		<script src="index.js"></script>
 	</body>
 </html> 

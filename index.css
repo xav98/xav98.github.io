@@ -93,7 +93,7 @@
 }
 
 /* Seção Portfólio */
-#Sobre, #Portfólio{
+#Sobre, #Portfólio, #Criacoes{
 	background-color: #fcfcfc;
 }
 #bp{
@@ -158,6 +158,19 @@
 	-ms-transform: scale(1.2);	/* IE 9 */
 	-webkit-transform: scale(1.2);	/* Safari */
 	transition-duration: 0.3s;
+}
+
+/*Seção Criacoes*/
+.slick{
+	width: 96%;
+	height: 100%;
+	max-height: 250px;
+	margin-left: 2%;
+}
+.img_carossel{
+	margin: 0px 10px 10px 0px;
+	box-shadow: 1px 3px 5px #232323;
+	border-radius: 50%;
 }
 
 /* Footer */
