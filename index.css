@@ -23,12 +23,15 @@
 #barra_nav{
 	background-color: #000;
 	opacity: 0.9;
+	padding-right: 100px;
 	box-shadow: 0px 3px 5px #232323;
 }
 #nav_item{
+	font-size: 14px;
+	font-weight: bold;
 	color: #fcfcfc;
-	font-family: Merienda;
-	text-transform: uppercase;
+	font-family: nunito;
+	margin: 10px 15px 10px 15px;
 }
 #nav_item:hover{
 	color: #ffff44;
