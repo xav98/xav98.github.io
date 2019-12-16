@@ -3,20 +3,24 @@
 	padding: 120px 0px 120px 0px;
 }
 .title{
-	font-family: merienda;
+	font-family: nunito;
 	font-size: 50px;
 	text-align: center;
 	margin-bottom: 50px;
-	text-transform: uppercase;
 	text-shadow: 0px 1px 3px #ffff33;
 }
 .text{
-	font-family: lora;
+	font-family: nunito;
 	color: #434343;
-	font-size: 14px;
-	font-weight:600;
+	font-size: 18px;
 	letter-spacing: 0.9px;
-	text-transform: uppercase;
+}
+
+#Sobre, #Timeline, #Contato{
+	background-color: #fcfcfc;
+}
+#Habilidades, #Portfólio, #Criacoes{
+	background-color: #ffe599;
 }
 
 /* Barra de Navegação */
@@ -46,24 +50,19 @@
 #Inicio{
 	background: url(midia/night.jpg) no-repeat center fixed;
 	background-size: cover;
-	margin: -80px 0px -120px 0px;
+	padding-top: 180px;
+	padding-bottom: 180px;
 }
 .img_perfil{
 	background: url(midia/foto.png) no-repeat center;
 	background-size: cover;
 	width: 210px;
 	height: 210px;
-	margin: 50px auto 40px auto;
+	margin: 0px auto 40px auto;
 	border-radius: 50%;
 }
 
-/* Seção About */
-.title-j{
-	font-family: jokerman;
-	font-size: 24px;
-	text-transform: uppercase;
-	text-shadow: 0px 1px 3px #ffff33;
-}
+/* Seção Habilidades */
 .text-j{
 	font-family: lora;
 	color: #333333;
@@ -86,19 +85,9 @@
 	width: auto;
 	height: 200px;
 	margin: 0px auto 10px auto;
-	
-}
-
-/* Seção Time Line */
-#Timeline{
-	background: url(midia/bgtl.png) no-repeat center fixed;
-	background-size: cover;
 }
 
 /* Seção Portfólio */
-#Sobre, #Portfólio, #Criacoes{
-	background-color: #fcfcfc;
-}
 #bp{
 	position:absolute;
 	right:0;
@@ -127,10 +116,6 @@
 }
 
 /* Seção Contato */
-#Contato{
-	background: url(midia/bgc.jpg) no-repeat center fixed;
-	background-size: cover;
-}
 .map-container{
 	background-color: rgb(35,35,35,0.6);
 	height: 500px;
