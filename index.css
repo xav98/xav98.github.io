@@ -12,13 +12,14 @@
 }
 .text{
 	font-family: nunito;
-	color: #434343;
+	color: #232323;
 	font-size: 18px;
 	letter-spacing: 0.9px;
+	font-weight: bold;
 }
 
 #Sobre, #Timeline, #Contato{
-	background-color: #aaa;
+	background-color: #6666ff;
 }
 #Habilidades, #Portfólio, #Criacoes{
 	background-color: #ffe599;
@@ -149,7 +150,18 @@
 	-webkit-transform: scale(1.2);	/* Safari */
 	transition-duration: 0.3s;
 }
-
+#lattes{
+	color: #fcfcfc;
+	opacity: 0.8;
+	text-shadow: 0px 1px 4px #232323;
+}
+#lattes:hover{
+	opacity: 1;
+	transform: scale(1.2);
+	-ms-transform: scale(1.2);	/* IE 9 */
+	-webkit-transform: scale(1.2);	/* Safari */
+	transition-duration: 0.3s;
+}
 
 /*Seção Criacoes*/
 .slick{
