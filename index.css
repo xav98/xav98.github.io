@@ -115,7 +115,7 @@
 .text_port:hover{
 	background: rgba(0, 0, 0, 0.8);
 	opacity: 1;
-	transition-duration: 0.5s;
+	transition-duration: 0.6s;
 }
 
 /* Seção Contato */
@@ -137,10 +137,10 @@
 	border-radius: 6px;
 }
 #icon{
-	font-size: 36px;
+	font-size: 40px;
 	color: #2323fc;
-	opacity: 0.8;
-	margin: 0px 20px 30px 20px;
+	opacity: 0.7;
+	margin: 0px 25px 30px 25px;
 	text-shadow: 0px 0px 4px #fff;
 }
 #icon:hover{
@@ -148,19 +148,19 @@
 	transform: scale(1.2);
 	-ms-transform: scale(1.2);	/* IE 9 */
 	-webkit-transform: scale(1.2);	/* Safari */
-	transition-duration: 0.3s;
+	transition-duration: 0.4s;
 }
 #lattes{
 	color: #2323fc;
-	opacity: 0.8;
+	opacity: 0.7;
 	text-shadow: 0px 0px 4px #fff;
 }
 #lattes:hover{
 	opacity: 1;
-	transform: scale(1.2);
-	-ms-transform: scale(1.2);	/* IE 9 */
-	-webkit-transform: scale(1.2);	/* Safari */
-	transition-duration: 0.3s;
+	transform: scale(1.22);
+	-ms-transform: scale(1.22);	/* IE 9 */
+	-webkit-transform: scale(1.22);	/* Safari */
+	transition-duration: 0.5s;
 }
 
 /*Seção Criacoes*/
@@ -172,7 +172,7 @@
 }
 .img_carossel{
 	margin: 0px 10px 10px 0px;
-	box-shadow: 1px 3px 6px #232323;
+	box-shadow: 0px 2px 4px #232323;
 	border-radius: 50%;
 }
 
