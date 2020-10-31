@@ -28,23 +28,24 @@
 /* Barra de Navegação */
 #barra_nav{
 	background-color: #000;
-	opacity: 0.9;
-	padding-right: 100px;
+	opacity: 0.8;
+	padding-right: 75px;
 	box-shadow: 0px 3px 5px #232323;
 }
 #nav_item{
-	font-size: 14px;
+	font-size: 13px;
 	font-weight: bold;
+	letter-spacing: 1px;
 	color: #fcfcfc;
 	font-family: nunito;
-	margin: 10px 15px 10px 15px;
+	margin: 2px 8px 2px 8px;
 }
 #nav_item:hover{
 	color: #ffff44;
 	text-decoration: underline;
-	transform: scale(1.1);
-	-ms-transform: scale(1.1);	/* IE 9 */
-	-webkit-transform: scale(1.1);	/* Safari */
+	transform: scale(1.15);
+	-ms-transform: scale(1.15);	/* IE 9 */
+	-webkit-transform: scale(1.15);	/* Safari */
 	transition-duration: 0.4s;
 }
 
@@ -83,7 +84,10 @@
 .sk3{
 	background: url(midia/sk3.png) no-repeat center;
 }
-.sk1, .sk2, .sk3{
+.sk4{
+	background: url(midia/sk4.png) no-repeat center;
+}
+.sk1, .sk2, .sk3, .sk4{
 	background-size: cover;
 	width: auto;
 	height: 200px;
@@ -138,7 +142,7 @@
 }
 #icon{
 	font-size: 40px;
-	color: #2323fc;
+	color: #0000ff;
 	opacity: 0.7;
 	margin: 0px 25px 30px 25px;
 	text-shadow: 0px 0px 4px #fff;
@@ -151,15 +155,15 @@
 	transition-duration: 0.4s;
 }
 #lattes{
-	color: #2323fc;
+	color: #0000ff;
 	opacity: 0.7;
 	text-shadow: 0px 0px 4px #fff;
 }
 #lattes:hover{
 	opacity: 1;
-	transform: scale(1.22);
-	-ms-transform: scale(1.22);	/* IE 9 */
-	-webkit-transform: scale(1.22);	/* Safari */
+	transform: scale(1.2);
+	-ms-transform: scale(1.2);	/* IE 9 */
+	-webkit-transform: scale(1.2);	/* Safari */
 	transition-duration: 0.5s;
 }
 
