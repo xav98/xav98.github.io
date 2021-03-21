@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">	<!-- Garante a renderizaçãoo adequada e o zoom de toque -->
 		
 		<title>Xavier</title>
-		<link rel="icon" href="midia/pp.png" type="image/png" sizes="16x16">  <!-- Imagem do título da página -->
+		<link rel="icon" href="midia/icon.png" type="image/png" sizes="16x16">  <!-- Imagem do título da página -->
 		
 		<!-- Links para BootStrap e CSS -->
 		<link rel="stylesheet" type="text/css" href="index.css"/>
@@ -17,7 +17,7 @@
 		
 		<!--- Links para fontes de texto --->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merienda">
 		
 		<!-- Links para o slick -->
 		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
@@ -27,20 +27,20 @@
 	
 	<body>
 		<!--- BARRA DE NAVEGAÇãO --->
-		<nav id="barra_nav" class="navbar fixed-top navbar-expand-sm navbar-dark">
+		<nav class="navbar fixed-top navbar-expand-sm bg-muted navbar-dark" style="text-shadow: 1px 1px 1px #000;">
+			<a class="navbar-brand" href="#">
+				<img src="midia/icon.png" alt="Logo" style="width:55px;">
+			</a>
+			
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			
 			<div id="collapsibleNavbar" class="collapse navbar-collapse justify-content-end">
 				<ul class="navbar-nav">
-					<li class="nav-item"><a id="nav_item" class="nav-link" href="#Inicio">Home</a></li>
-					<li class="nav-item"><a id="nav_item" class="nav-link" href="#Sobre">Sobre</a></li>
-					<li class="nav-item"><a id="nav_item" class="nav-link" href="#Habilidades">Habilidades</a></li>
-					<li class="nav-item"><a id="nav_item" class="nav-link" href="#Timeline">Timeline</a></li>
-					<li class="nav-item"><a id="nav_item" class="nav-link" href="#Portfólio">Portfólio</a></li>
-					<li class="nav-item"><a id="nav_item" class="nav-link" href="#Contato">Contato</a></li>
-					<li class="nav-item"><a id="nav_item" class="nav-link" href="#Criacoes">Criations</a></li>
+					<li style="margin-right:15px"><a class="nav-link text" href="#Contato">Contato</a></li>
+					<li style="margin-right:15px"><a class="nav-link text" href="https://www.instagram.com/umroboporaluno/">U.R.A.</a></li>
+					<li style="margin-right:45px"><a class="nav-link text" href="https://www.instagram.com/lrrobotica/">LRRobótica</a></li>
 				</ul>
 			</div>  
 		</nav>
@@ -62,16 +62,18 @@
 		<div id="Sobre" class="container-fluid">
 			<div class="row">
 				<div class="col-sm-5">
-					<img class="imgf" src="midia/s.jpg"><img>
+					<img class="s" src="midia/s.png"><img>
 				</div>
 				
 				<div class="col-sm-7"><br>
-					<h1 class="title font-weight-bold">Sobre</h1>
+					<h1 class="title font-weight-bold" style="text-align: left;">Sobre</h1>
 					<p class="text font-weight-bold">- Nascido em 1998. Interessado em Eletrônicos desde a Infância.<br><br>
-					- Técnico de Nível Médio em Informática pelo IFRN - campus Ceará-Mirim.<br>
-					- Graduando em Bacharelado em C&T na UFRN - Natal/RN, onde sou monitor bolsista de apoio admin. e técnico no Labotatório de Automação e Robótica (LAR) da Escola de Ciência e Tecnologia (ECT), além de um dos líderes no projeto Um Robô por Aluno (URA), atuando na célula de apoio técnico.<br><br>
-					- Com Conhecimentos nas Linguagens de Programação Arduíno (C++), JavaScript, HTML, CSS, Modelagem 3D e claro, em Eletrônica.<br>
-					- Entusiasta na Área de Arduíno e suas Tecnologias e Robótica Educacional. com Ambição de cursar Engenharia Mecatrônica no Segundo ciclo de C&T. </p>
+					- Técnico de Nível Médio em Informática pelo IFRN - campus Ceará-Mirim.<br><br>
+					- Graduando em Bacharelado em C&T na UFRN - Natal/RN, onde sou monitor bolsista de apoio admin. e técnico no Labotatório de Automação e Robótica (LAR) da Escola de Ciência e Tecnologia (ECT), além de um dos líderes no projeto Um Robô por Aluno (URA).<br><br>
+					- Professor de Robótica pela empresa Luciana Raposo Academia de Robótica (LRRobótica).<br><br>
+					
+					- Com Conhecimentos nas Linguagens de Programação Arduíno (C++), JavaScript, HTML, CSS, Modelagem 3D e claro, em Eletrônica.<br><br>
+					- Entusiasta na Área de Arduíno e suas Tecnologias, Robótica Educacional e com Ambição de cursar Engenharia Mecatrônica no Segundo ciclo de C&T. </p>
 				</div>
 			</div>
 		</div>
@@ -84,304 +86,65 @@
 				</div>
 				
 				<div class="col-sm-3">
-					<div class="jumbotron">
-						<p class="text-j text-center"><i>Solda com Estanho</i></p> 
-						<div class="sk1"></div>
-						<p class="text text-justify">A solda permite o conserto e/ou a criação de diversos eletrônicos, como consertar fones de ouvido e incrementar objetos quaisquer com led's, por exemplo.</p>
+					<div class="hab">
+						<a><img  class="sk" src="midia/sk1.png"></a>
+						<p class="text-center font-weight-bold"><i>Solda e Eletronica</i></p> 
+						<p class="text text-justify">A eletrônica não são apenas placas complexas de circuito minusculas, é possível desenvolver dispositivos como aparatos mais simples e, com a solda, consertar e criar diversos desses aparatos eletrônicos com mais facilidade.</p>
 					</div>
 				</div>
 				
 				<div class="col-sm-3">
-					<div class="jumbotron">
-						<p class="text-j text-center"><i>Arduíno</i></p>
-						<div class="sk2"></div>
-						<p class="text text-justify">Com o Arduíno é possível quase tudo, desde automação em geral a confecção de protótipos e robôs, seja em miniatura para teste, demonstração ou em escala normal.</p>
+					<div class="hab">
+						<a><img  class="sk" src="midia/sk2.png"></a>
+						<p class="text-center font-weight-bold"><i>Línguagem de Programação</i></p>
+						<p class="text text-justify">Com ela é possível quase tudo, desde automação em geral, usando o Arduino, até a confecção de protótipos e robôs, seja em miniatura para teste, demonstração ou em escala norma, além de ser um diferencial no ensino dos jovens.</p>
 					</div>
 				</div>
 				
 				<div class="col-sm-3">
-					<div class="jumbotron">
-						<p class="text-j text-center"><i>Modelagem 3D</i></p>
-						<div class="sk3"></div>
-						<p class="text text-justify">A modelagem 3D permite fazer ou adaptar quase todo tipo de projeto ou mesmo para criár estruturas para tais projetos. sendo possível fazer formas e proporções livremente.</p>
+					<div class="hab">
+						<a><img  class="align-center sk" src="midia/sk3.png"></a>
+						<p class="text-center font-weight-bold"><i>Modelagem e Impressão 3D</i></p>
+						<p class="text text-justify">A modelagem 3D permite a criação de quase todo tipo de objeto e até mesmo estruturas mais complexas, tornando possível fazer a sua imaginação se tornar realidade, o que perite o desenvolver de quase todos seus desenhos.</p>
 					</div>
 				</div>
 			
 				<div class="col-sm-3">
-					<div class="jumbotron">
-						<p class="text-j text-center"><i>Criatividade</i></p>
-						<div class="sk4"></div>
-						<p class="text text-justify">Essa skill realça as outras, não só por gerar diversas ideias a serem executadas como, para pensar em métodos para se fazer tais coisas, uma das melhores caract. de todas.</p>
+					<div class="hab">
+						<a><img  class="sk" src="midia/sk4.png"></a>
+						<p class="text-center font-weight-bold"><i>Criatividade e Inovação</i></p>
+						<p class="text text-justify">Uma das, se não A habilidade mais requisitada nos dias de hoje. Além de realçar as outras, não só por gerar diversas ideias, como também para pensar em como fazer as mesmas ou até para facilitar processos com novidades.</p>
 					</div>
 				</div>
 				
 			</div>
 		</div>
 
-		<!--- Seção Timeline --->
-		<div id="Timeline" class="container-fluid">
-			<div class="row">
-			
-				<div class="col-sm-2"></div>
-			
-				<div class="col-sm-8">
-					<h1 class="title font-weight-bold">Timeline</h1>
-					<!-- <p class="text text-center">2006 - Começou a Desmontar Alguns Eletrônicos pela Casa (exemplo: Receptores e Sons)</p> -->
-					<p class="text text-center">05/2014 - Começou o Curso de Técnico Integrado em Informática pelo IFRN - Campus CM</p>
-					<!-- <p class="text text-center">2015 - Adquiriu um Ferro de Solda, Começando a Consertar Fones de Ouvido no IFRN-CM</p> -->
-					<p class="text text-center">05/2017 - Passou no Processo Seletivo para a Equipe de Estudos em Robótica - IFRN-CM</p>
-					<p class="text text-center">06/2017 - Realizou um Projeto de Pesquisa Usando Arduino, (RFID) com NodeMCU e Relé</p>
-					<p class="text text-center">07/2017 - Confeccionou uma "Armadura de LED's" Feita de Papelão com Elástico e Velcro</p>
-					<p class="text text-center">08/2017 - Participou da OBR no IFRN - Campus Natal-Central com a Equipe de Robótica</p>
-					<p class="text text-center">11/2017 - Participou da SECITEX IFRN - Campus Caicó Juntamente a Equipe de Robótica</p>
-					<p class="text text-center">07/2018 - Participou da OBR no IFRN - Campus Natal-Central com a Equipe de Robótica</p>
-					<p class="text text-center">10/2018 - Participou da SECITEX IFRN - Campus Natal-Central com a Equipe de Robótica</p>
-					<p class="text text-center">12/2018 - Concluiu o Curso de Técnico Integrado em Informática pelo IFRN - Ceará-Mirim</p>
-					<p class="text text-center">02/2019 - Ingressou no Curso Bacharelado em Ciência & Tecnologia na UFRN - Natal/RN</p>
-					<p class="text text-center">09/2019 - Entrou no Projeto de Extenção Um Robô por Aluno (URA) na UFRN - Natal/RN</p>
-					<p class="text text-center">11/2019 - Participou do IEncontro de Robótica Educacional do RN - UFERSA Angícos/RN</p>
-					<p class="text text-center">12/2019 - Deu Aulas de Robótica e Participou da Feira do Ens. Fundamental - Pureza/RN</p>
-					<p class="text text-center">01/2020 - Adquiriu uma Bolsa de Monitor de Apoio Admin. e Técnico no LAR/ECT - UFRN</p>
-					<p class="text text-center">02/2020 - Passou a ser um dos Professores e Organizador Gestor do Projeto URA - UFRN</p>
-					<p class="text text-center">09/2020 - Convidado e Contratado para a Iniciativa Empresarial Educacional L.R. Robótica</p>
-				</div>
-				
-				<div class="col-sm-2"></div>
-				
-			</div>
-		</div>
-
-		<!--- Seção Portfólio --->
-		<div id="Portfólio" class="container-fluid">
-			<div class="row">
-				<div class="col-sm-12">
-					<h1 class="title font-weight-bold">Portfólio</h1>
-				</div>
-
-				<div class="col-sm-3">
-					<img class="img rounded" src="midia/p1.jpg">
-					<div class="text_port card-img-overlay">
-						<p class="card-text">2017 - modelo usado na OBR, IFRN campus Natal-Central</p><br>
-						<a class="btn btn-outline-primary btn-block" data-toggle="modal" data-target="#myModal1">Vizualizar</a>
-					</div>
-					<!-- The Modal -->
-					<div class="modal fade" id="myModal1">
-						<div class="modal-dialog modal-dialog-scrollable modal-lg">
-							<div class="modal-content">
-								<button id="bp" type="button" class="btn text-light bg-danger" data-dismiss="modal">&times;</button>
-								<img class="imgf" src="midia/p1.jpg"><img>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-3">
-					<img class="img rounded" src="midia/p2.jpg">
-					<div class="text_port card-img-overlay">
-						<p class="card-text">2º Rôbo feito em 2017 p/ SECITEX IFRN campus Caicó (melhor modelinho até agr).</p><br>
-						<a class="btn btn-outline-primary btn-block" data-toggle="modal" data-target="#myModal2">Vizualizar</a>
-					</div>
-					<!-- The Modal -->
-					<div class="modal fade" id="myModal2">
-						<div class="modal-dialog modal-dialog-scrollable modal-lg">
-							<div class="modal-content">
-								<button id="bp" type="button" class="btn text-light bg-danger" data-dismiss="modal">&times;</button>
-								<img class="imgf" src="midia/p2.jpg"><img>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-3">
-					<img class="img rounded" src="midia/p3.jpg">
-					<div class="text_port card-img-overlay">
-						<p class="card-text">Rôbo feito em 2018 p/ OBR, IFRN campus Natal-Central.</p><br>
-						<a class="btn btn-outline-primary btn-block" data-toggle="modal" data-target="#myModal3">Vizualizar</a>
-					</div>
-					<!-- The Modal -->
-					<div class="modal fade" id="myModal3">
-						<div class="modal-dialog modal-dialog-scrollable modal-lg">
-							<div class="modal-content">
-								<button id="bp" type="button" class="btn text-light bg-danger" data-dismiss="modal">&times;</button>
-								<img class="imgf" src="midia/p3.jpg"><img>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-3">
-					<img class="img rounded" src="midia/p4.jpg">
-					<div class="text_port card-img-overlay">
-						<p class="card-text">3º equipe de robótica na OBR de 2018</p><br>
-						<a class="btn btn-outline-primary btn-block" data-toggle="modal" data-target="#myModal14">Vizualizar</a>
-					</div>
-					<!-- The Modal -->
-					<div class="modal fade" id="myModal14">
-						<div class="modal-dialog modal-dialog-scrollable modal-lg">
-							<div class="modal-content">
-								<button id="bp" type="button" class="btn text-light bg-danger" data-dismiss="modal">&times;</button>
-								<img class="imgf" src="midia/p4.jpg"><img>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<div class="col-sm-3">
-					<img class="img rounded" src="midia/p5.jpg">
-					<div class="text_port card-img-overlay">
-						<p class="card-text">"Armadura" de leds na SECITEX em Caíco.</p><br>
-						<a class="btn btn-outline-primary btn-block" data-toggle="modal" data-target="#myModal5">Vizualizar</a>
-					</div>
-					<!-- The Modal -->
-					<div class="modal fade" id="myModal5">
-						<div class="modal-dialog modal-dialog-scrollable modal-lg">
-							<div class="modal-content">
-								<button id="bp" type="button" class="btn text-light bg-danger" data-dismiss="modal">&times;</button>
-								<img class="imgf" src="midia/p5.jpg"><img>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-3">
-					<img class="img rounded" src="midia/p6.jpg">
-					<div class="text_port card-img-overlay">
-						<p class="card-text">Trupe da Equipe URA indo ao I Encontro de Robótica Educacional do RN</p><br>
-						<a class="btn btn-outline-primary btn-block" data-toggle="modal" data-target="#myModal6">Vizualizar</a>
-					</div>
-					<!-- The Modal -->
-					<div class="modal fade" id="myModal6">
-						<div class="modal-dialog modal-dialog-scrollable modal-lg">
-							<div class="modal-content">
-								<button id="bp" type="button" class="btn text-light bg-danger" data-dismiss="modal">&times;</button>
-								<img class="imgf" src="midia/p6.jpg"><img>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-3">
-					<img class="img rounded" src="midia/p7.jpg">
-					<div class="text_port card-img-overlay">
-						<p class="card-text">Projeto URA na mostra tecnológica do I Encontro de Robótica Educacional do RN</p><br>
-						<a class="btn btn-outline-primary btn-block" data-toggle="modal" data-target="#myModal7">Vizualizar</a>
-					</div>
-					<!-- The Modal -->
-					<div class="modal fade" id="myModal7">
-						<div class="modal-dialog modal-dialog-scrollable modal-lg">
-							<div class="modal-content">
-								<button id="bp" type="button" class="btn text-light bg-danger" data-dismiss="modal">&times;</button>
-								<img class="imgf" src="midia/p7.jpg"><img>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-3">
-					<img class="img rounded" src="midia/p8.jpg">
-					<div class="text_port card-img-overlay">
-						<p class="card-text">Aula de robótica para turma do fundamenta em escola de Pureza/RN.</p><br>
-						<a class="btn btn-outline-primary btn-block" data-toggle="modal" data-target="#myModal18">Vizualizar</a>
-					</div>
-					<!-- The Modal -->
-					<div class="modal fade" id="myModal18">
-						<div class="modal-dialog modal-dialog-scrollable modal-lg">
-							<div class="modal-content">
-								<button id="bp" type="button" class="btn text-light bg-danger" data-dismiss="modal">&times;</button>
-								<img class="imgf" src="midia/p8.jpg"><img>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<div class="col-sm-3">
-					<img class="img rounded" src="midia/p9.jpg">
-					<div class="text_port card-img-overlay">
-						<p class="card-text">Aula de robótica para turma do fundamenta em escola de Pureza/RN.</p><br>
-						<a class="btn btn-outline-primary btn-block" data-toggle="modal" data-target="#myModal19">Vizualizar</a>
-					</div>
-					<!-- The Modal -->
-					<div class="modal fade" id="myModal19">
-						<div class="modal-dialog modal-dialog-scrollable modal-lg">
-							<div class="modal-content">
-								<button id="bp" type="button" class="btn text-light bg-danger" data-dismiss="modal">&times;</button>
-								<img class="imgf" src="midia/p9.jpg"><img>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-3">
-					<img class="img rounded" src="midia/p10.jpg">
-					<div class="text_port card-img-overlay">
-						<p class="card-text">Oficinas LATIC-UFERSA/URA-UFRN, para capacitação entre projetos educacionais</p><br>
-						<a class="btn btn-outline-primary btn-block" data-toggle="modal" data-target="#myModal110">Vizualizar</a>
-					</div>
-					<!-- The Modal -->
-					<div class="modal fade" id="myModal110">
-						<div class="modal-dialog modal-dialog-scrollable modal-lg">
-							<div class="modal-content">
-								<button id="bp" type="button" class="btn text-light bg-danger" data-dismiss="modal">&times;</button>
-								<img class="imgf" src="midia/p10.jpg"><img>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-3">
-					<img class="img rounded" src="midia/p11.jpg">
-					<div class="text_port card-img-overlay">
-						<p class="card-text">09/2020 - primeira formação da equipe de professores da LR Robótica</p><br>
-						<a class="btn btn-outline-primary btn-block" data-toggle="modal" data-target="#myModal111">Vizualizar</a>
-					</div>
-					<!-- The Modal -->
-					<div class="modal fade" id="myModal111">
-						<div class="modal-dialog modal-dialog-scrollable modal-lg">
-							<div class="modal-content">
-								<button id="bp" type="button" class="btn text-light bg-danger" data-dismiss="modal">&times;</button>
-								<img class="imgf" src="midia/p11.jpg"><img>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-3">
-					<img class="img rounded" src="midia/p12.jpg">
-					<div class="text_port card-img-overlay">
-						<p class="card-text">10/2020 - formação da equipe de professores + pedagoga da LR Robótica</p><br>
-						<a class="btn btn-outline-primary btn-block" data-toggle="modal" data-target="#myModal12">Vizualizar</a>
-					</div>
-					<!-- The Modal -->
-					<div class="modal fade" id="myModal12">
-						<div class="modal-dialog modal-dialog-scrollable modal-lg">
-							<div class="modal-content">
-								<button id="bp" type="button" class="btn text-light bg-danger" data-dismiss="modal">&times;</button>
-								<img class="imgf" src="midia/p12.jpg"><img>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-			</div>
-		</div>
- 
 		<!--- Seção Contato --->
 		<div  id="Contato" class="container-fluid">
 			<div class="row">
 				<!----- Mapa ----->
-				<div class="col-sm-7">
+				<div class="col-sm-6">
 					<div id="map-container-google-1" class="z-depth-1-half map-container">
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.3121905074813!2d-35.203159950094125!3d-5.81151155891361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b2fff6a663957b%3A0x620f8cf8989865a3!2sAcademia%20Jaime%20Louren%C3%A7o!5e0!3m2!1spt-BR!2sbr!4v1604182135912!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 					</div>
 					<br><br>
 				</div>
 				
-				<div class="col-sm-5 text-center">	<!-- icons -->
+				<div class="col-sm-6 text-center">	<!-- icons -->
 					
 					<h1 class="title font-weight-bold">Contato</h1>					
-					<a href="http://lattes.cnpq.br/4478284811855294" target="_blank"><h4 id="lattes">Currículo lattes</h4></a><br>					
+					<a href="http://lattes.cnpq.br/4478284811855294" target="_blank"><h3 id="lattes">Currículo lattes</h3></a><br>					
 					<a href="https://www.facebook.com/profile.php?id=100006542765469" target="_blank"><i id="icon" class="fa fa-facebook-square"></i></a>
 					<a href="https://api.whatsapp.com/send?phone=5584994620745" target="_blank"><i id="icon" class="fa fa-whatsapp"></i></a>
 					<a href="https://www.instagram.com/pxavier0/" target="_blank"><i id="icon" class="fa fa-instagram"></i></a><br>
 					<a href="https://github.com/px013" target="_blank"><i id="icon" class="fa fa-github-square"></i></a>
 					<a href="https://www.youtube.com/channel/UCEdVpqtM1v8XV_Xpi6VmIQA?view_as=subscriber" target="_blank"><i id="icon" class="fa fa-youtube-square"></i></a>
-					<a href="https://www.linkedin.com/in/paulo-xavier-b93781120/" target="_blank"><i id="icon" class="fa fa-linkedin-square"></i></a><br>
-					<h5>Academia Jaime Lourenço<br>
-					L.R. Academia de Robótica<br><br>
-					R. Dr. Nilo Bezerra Ramalho, 1706 <br>	Tirol, Natal - RN, 59015-300</h5><br>
-					<h3>e-mail: <b>pxavier@ufrn.edu.br</b></h3>
-					
+					<a href="https://www.linkedin.com/in/paulo-xavier-b93781120/" target="_blank"><i id="icon" class="fa fa-linkedin-square"></i></a>
+					<p class="text text-center font-weight-bold">Academia Jaime Lourenço - LRRobótica<br><br>
+					R. Dr. Nilo Bezerra Ramalho, 1706 - Tirol<br>
+					Natal - RN, 59015-300</p>
+					<h4>e-mail: <b>pxavier@ufrn.edu.br</b></h4>
 					
 				</div>
 				
@@ -389,29 +152,32 @@
 		</div>
 		
 		<!--- Seção Criações --->
-		<div id="Criacoes" class="container-fluid">
+		<div id="Fotos" class="container-fluid">
 			<div class="row">
 			
 				<div class="col-sm-12">
-					<h1 class="title">Criações</h1>
+					<h1 class="title font-weight-bold">Fotos</h1>
 				</div>
 				
 				<div class= "slick">
-					<img class="img_carossel" src="midia/c0.jpeg"></img>
-					<img class="img_carossel" src="midia/c1.jpg"></img>
-					<img class="img_carossel" src="midia/c2.jpeg"></img>
-					<img class="img_carossel" src="midia/c3.jpg"></img>
-					<img class="img_carossel" src="midia/c4.jpg"></img>
-					<img class="img_carossel" src="midia/c5.jpg"></img>
-					<img class="img_carossel" src="midia/c6.jpg"></img>
+					<img class="img_carossel" src="midia/c0.jpg" style="width:300px;height:250px;"></img>
+					<img class="img_carossel" src="midia/c1.jpg" style="width:300px;height:250px;"></img>
+					<img class="img_carossel" src="midia/c2.jpg" style="width:300px;height:250px;"></img>
+					<img class="img_carossel" src="midia/c3.jpg" style="width:300px;height:250px;"></img>
+					<img class="img_carossel" src="midia/c4.jpg" style="width:300px;height:250px;"></img>
+					<img class="img_carossel" src="midia/c5.jpg" style="width:300px;height:250px;"></img>
+					<img class="img_carossel" src="midia/c6.jpg" style="width:300px;height:250px;"></img>
+					<img class="img_carossel" src="midia/c7.jpg" style="width:300px;height:250px;"></img>
+					<img class="img_carossel" src="midia/c8.jpg" style="width:300px;height:250px;"></img>
+					<img class="img_carossel" src="midia/c9.jpg" style="width:300px;height:250px;"></img>
 				</div>
 				
 			</div>
 		</div>
 
 		<!--- Footer --->
-		<footer class="text-center ft">
-			<a><a href="http://lattes.cnpq.br/4478284811855294"><i class="fa fa-bolt text-warning"></i></a> Copyright © 2019 - 2020 | Xavier</a>
+		<footer id="ft" class="text text-center text-light">
+			<a><a href="http://lattes.cnpq.br/4478284811855294"><i class="fa fa-bolt text-warning"></i></a> Copyright © 2019 - 2021 | Xavier</a>
 		</footer>
 
 		<script src="index.js"></script>

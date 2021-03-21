@@ -3,55 +3,33 @@
 	padding: 120px 0px 120px 0px;
 }
 .title{
-	font-family: nunito;
-	color: #000;
-	font-size: 50px;
+	font-family: merienda;
+	font-size: 51px;
 	text-align: center;
 	margin-bottom: 50px;
-	text-shadow: 0px 0px 3px #333;
+	letter-spacing: 0.9px;
+	text-shadow: 1px 2px 2px #daa520;
 }
 .text{
-	font-family: nunito;
-	color: #232323;
-	font-size: 18px;
+	font-family: lora;
+	font-size: 15px;
+	text-align: left;
 	letter-spacing: 0.9px;
-	font-weight: bold;
+	text-shadow: 1px 2px 2px #gray;
 }
 
-#Sobre, #Timeline, #Contato{
-	background-color: rgba(72, 180, 220, 0.3);
+#Habilidades, #Fotos{
+	background: url(midia/bgb.png) center fixed;
+	color: #232323;
 }
-#Habilidades, #Portfólio, #Criacoes{
-	background-color: #fcfcfc;
-}
-
-/* Barra de Navegação */
-#barra_nav{
-	background-color: #000;
-	opacity: 0.8;
-	padding-right: 75px;
-	box-shadow: 0px 3px 5px #232323;
-}
-#nav_item{
-	font-size: 13px;
-	font-weight: bold;
-	letter-spacing: 1px;
-	color: #fcfcfc;
-	font-family: nunito;
-	margin: 2px 8px 2px 8px;
-}
-#nav_item:hover{
-	color: #ffff44;
-	text-decoration: underline;
-	transform: scale(1.15);
-	-ms-transform: scale(1.15);	/* IE 9 */
-	-webkit-transform: scale(1.15);	/* Safari */
-	transition-duration: 0.4s;
+#Sobre, #Contato{
+	background: url(midia/bga.png) center fixed;
+	color: #cdcdcd;
 }
 
 /* Seção Inicial */
 #Inicio{
-	background: url(midia/night.jpg) no-repeat center fixed;
+	background: url(midia/bgi.png) no-repeat center fixed;
 	background-size: cover;
 	padding-top: 180px;
 	padding-bottom: 180px;
@@ -62,64 +40,27 @@
 	width: 200px;
 	height: 200px;
 	margin: 0px auto 40px auto;
-	border-radius: 50%;
+	border-radius: 45%;
+}
+
+/* Seção Sobre */
+.s{
+	max-width: 90%;
+	max-height: 90%;
+	border-radius: 10%;
+	margin: 30px 3% 15px 3%;
 }
 
 /* Seção Habilidades */
-.text-j{
-	font-family: lora;
-	color: #333333;
-	font-size: 20px;
-	font-weight: bolder;
-	letter-spacing: 0.9px;
-	text-transform: uppercase;
-	text-shadow: 1px 1px 0.5px #333;
+.sk{
+	width:75px;
+	margin: 0px 33% 15px 33%;
 }
-.sk1{
-	background: url(midia/sk1.jpg) no-repeat center;
-}
-.sk2{
-	background: url(midia/sk2.png) no-repeat center;
-}
-.sk3{
-	background: url(midia/sk3.png) no-repeat center;
-}
-.sk4{
-	background: url(midia/sk4.png) no-repeat center;
-}
-.sk1, .sk2, .sk3, .sk4{
-	background-size: cover;
-	width: auto;
-	height: 200px;
-	margin: 0px auto 10px auto;
-}
-
-/* Seção Portfólio */
-#bp{
-	position:absolute;
-	right:0;
-}
-.img{
-	max-width: 100%;
-	min-width: 100%;
-	min-height: 180px;
-	max-height: 180px;
-	margin: 10px 0px 10px 0px;
-	box-shadow: 0px 1px 5px grey;
-}
-.imgf{
-	max-width: 100%;
-	max-height: 100%;
-}
-.text_port{
-	color: #fcfcfc;
-	margin: 10px 15px 10px 15px;
-	opacity: 0;
-}
-.text_port:hover{
-	background: rgba(0, 0, 0, 0.8);
-	opacity: 1;
-	transition-duration: 0.6s;
+.hab{
+	background: url(midia/bgl.png) center fixed;
+	padding: 30px 25px 40px 25px;
+	border-radius: 25px;
+	text-shadow: 1px 0px 0px #daa520;
 }
 
 /* Seção Contato */
@@ -142,47 +83,34 @@
 }
 #icon{
 	font-size: 40px;
-	color: #0000ff;
-	opacity: 0.7;
-	margin: 0px 25px 30px 25px;
-	text-shadow: 0px 0px 4px #fff;
-}
-#icon:hover{
-	opacity: 1;
-	transform: scale(1.2);
-	-ms-transform: scale(1.2);	/* IE 9 */
-	-webkit-transform: scale(1.2);	/* Safari */
-	transition-duration: 0.4s;
-}
-#lattes{
-	color: #0000ff;
-	opacity: 0.7;
-	text-shadow: 0px 0px 4px #fff;
-}
-#lattes:hover{
-	opacity: 1;
-	transform: scale(1.2);
-	-ms-transform: scale(1.2);	/* IE 9 */
-	-webkit-transform: scale(1.2);	/* Safari */
-	transition-duration: 0.5s;
+	color: #000;
+	margin: 0px 20px 40px 20px;
+	text-shadow: 1px 1px 2px #daa520;
 }
 
-/*Seção Criacoes*/
+#lattes{
+	font-family: lora;
+	color: #6363ff;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-shadow: 1px 2px 1px #daa520;
+}
+
+/*Seção Fotos*/
 .slick{
-	width: 88%;
+	width: 90%;
 	height: 100%;
 	max-height: 350px;
-	margin-left: 4%;
+	margin-left: 5%;
 }
 .img_carossel{
-	margin: 0px 10px 10px 0px;
-	box-shadow: 0px 2px 4px #232323;
-	border-radius: 50%;
+	margin: 0px 25px 10px 0px;
+	box-shadow: 1px 2px 1px #232323;
+	border-radius: 15px;
 }
 
 /* Footer */
-.ft{
-	background-color: #111;
-	color: #fcfcfc;
-	padding: 50px 0px 30px 0px;
+#ft{
+	background-color: #101010;
+	padding: 80px 0px 30px 0px;
 }
