@@ -1,35 +1,26 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="container">
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">	<!-- Garante a renderizaçãoo adequada e o zoom de toque -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">		<!-- Garante a renderizaçãoo adequada e o zoom de toque -->
 		
-		<title>Xavier</title>
-		<link rel="icon" href="midia/icon.png" type="image/png" sizes="16x16">  <!-- Imagem do título da página -->
+		<title>RNviagens</title>													<!-- Título a ficar na aba do navegador -->
+		<link rel="icon" href="midia/iconAba.png" type="image/png" sizes="16x16">	<!-- Imagem do título da página -->
 		
-		<!-- Links para BootStrap e CSS -->
-		<link rel="stylesheet" type="text/css" href="index.css"/>
+		<!----- Links para BootStrap e CSS ----->
+		<link rel="stylesheet" type="text/css" href="index.css"/>					<!-- Link para acesso ao arquivo de formatação CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 		
-		<!--- Links para fontes de texto --->
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merienda">
-		
-		<!-- Links para o slick -->
-		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-		<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-		<script type="text/javascript" src="slick/slick.min.js"></script>
+		<!----- Links para fontes de texto ----->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 	</head>
 	
 	<body>
 		<!--- BARRA DE NAVEGAÇãO --->
-		<nav class="navbar fixed-top navbar-expand-sm bg-muted navbar-light font-weight-bold" style="text-shadow: 1px 1px 0px #fff;">
-			<a class="navbar-brand" href="#">
-				<img src="midia/icon.png" alt="Logo" style="width:55px;">
+		<nav class="bga navbar navbar-expand-sm navbar-dark font-weight-bold">
+			<a class="navbar-brand">
+				<img class="imgbar" src="midia/iconNavBar.png" alt="Logo">
 			</a>
 			
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -38,122 +29,92 @@
 			
 			<div id="collapsibleNavbar" class="collapse navbar-collapse justify-content-end">
 				<ul class="navbar-nav">
-					<li style="margin-right:15px"><a class="nav-link text" href="#Contato">Contato</a></li>
-					<li style="margin-right:15px"><a class="nav-link text" href="https://www.instagram.com/umroboporaluno/">U.R.A.</a></li>
-					<li style="margin-right:45px"><a class="nav-link text" href="https://www.instagram.com/lrrobotica/">LRRobótica</a></li>
+					<li><a class="nav-link text-light font-weight-normal" href="index.html">PÁGINA INICIAL</a></li>
+					<li><a class="nav-link text-light font-weight-normal" href="https://viagemclub.com.br/lugares-para-conhecer-no-rio-grande-do-norte/">PONTOS TURÍSTICOS</a></li>
+					<li><a class="nav-link text-light font-weight-normal" href="sobre.html">SOBRE</a></li>
+					<li><a class="nav-link text-light font-weight-normal" href="contato.html">CONTATO</a></li>
 				</ul>
 			</div>  
 		</nav>
 
-		<!--- Seção Inicial --->
-		<div id="Inicio" class="container-fluid">
+		<!--- Seção Imagens --->
+		<div class="images">
 			<div class="row">
-			
-				<div class="col-sm-12">
-					<div class="img_perfil"></div>
-					<p class="title text-white font-weight-bold">Xavier <i class="fa fa-bolt text-warning"></i>
-					</p>
-				</div>
-				
-			</div>
-		</div>
-	
-		<!--- Seção Sobre --->
-		<div id="Sobre" class="container-fluid">
-			<div class="row">
-				<div class="col-sm-5">
-					<img class="s" src="midia/s.png"><img>
-				</div>
-				
-				<div class="col-sm-7"><br>
-					<h1 class="title font-weight-bold text-dark" style="text-align: left;">Sobre</h1>
-					<p class="text font-weight-bold">- Nascido em 1998. Interessado em Eletrônicos desde a Infância.<br><br>
-					- Técnico de Nível Médio em Informática pelo IFRN - campus Ceará-Mirim.<br><br>
-					- Graduando em Bacharelado em C&T na UFRN - Natal/RN, onde sou monitor bolsista de apoio admin. e técnico no Labotatório de Automação e Robótica (LAR) da Escola de Ciência e Tecnologia (ECT), além de um dos líderes no projeto Um Robô por Aluno (URA).<br><br>
-					- Professor de Robótica pela empresa Luciana Raposo Academia de Robótica (LRRobótica).<br><br>
-					
-					- Com Conhecimentos nas Linguagens de Programação Arduíno (C++), JavaScript, HTML, CSS, Modelagem 3D e claro, em Eletrônica.<br><br>
-					- Entusiasta na Área de Arduíno e suas Tecnologias, Robótica Educacional e com Ambição de cursar Engenharia Mecatrônica no Segundo ciclo de C&T. </p>
-				</div>
-			</div>
-		</div>
-
-		<!--- Seção Habilidades --->
-		<div id="Habilidades" class="container-fluid">
-			<div class="row">
-				<div class="col-sm-12">
-					<h1 class="title font-weight-bold text-white">Habilidades</h1>
-				</div>
-				
-				<div class="col-sm-3">
-					<div class="hab">
-						<a><img  class="sk" src="midia/sk1.png"></a>
-						<p class="text-center font-weight-bold"><i>Solda e Eletronica</i></p> 
-						<p class="text text-justify">A eletrônica não são apenas placas complexas de circuito minusculas, é possível desenvolver dispositivos como aparatos mais simples e, com a solda, consertar e criar diversos desses aparatos eletrônicos com mais facilidade.</p>
-					</div>
-				</div><br><br>
-				
-				<div class="col-sm-3">
-					<div class="hab">
-						<a><img  class="sk" src="midia/sk2.png"></a>
-						<p class="text-center font-weight-bold"><i>Línguagem de Programação</i></p>
-						<p class="text text-justify">Com ela é possível quase tudo, desde automação em geral, usando o Arduino, até a confecção de protótipos e robôs, seja em miniatura para teste, demonstração ou em escala norma, além de ser um diferencial no ensino dos jovens.</p>
-					</div>
-				</div><br><br>
-				
-				<div class="col-sm-3">
-					<div class="hab">
-						<a><img  class="align-center sk" src="midia/sk3.png"></a>
-						<p class="text-center font-weight-bold"><i>Modelagem e Impressão 3D</i></p>
-						<p class="text text-justify">A modelagem 3D permite a criação de quase todo tipo de objeto e até mesmo estruturas mais complexas, tornando possível fazer a sua imaginação se tornar realidade, o que perite o desenvolver de quase todos seus desenhos.</p>
-					</div>
-				</div><br><br>
-			
-				<div class="col-sm-3">
-					<div class="hab">
-						<a><img  class="sk" src="midia/sk4.png"></a>
-						<p class="text-center font-weight-bold"><i>Criatividade e Inovação</i></p>
-						<p class="text text-justify">Uma das, se não A habilidade mais requisitada nos dias de hoje. Além de realçar as outras, não só por gerar diversas ideias, como também para pensar em como fazer as mesmas ou até para facilitar processos com novidades.</p>
-					</div>
-				</div><br><br>
-				
-			</div>
-		</div>
-
-		<!--- Seção Contato --->
-		<div  id="Contato" class="container-fluid">
-			<div class="row">
-				<!----- Mapa ----->
+				<!----- - - - - - DADOS DO 1º (PRIMEIRO) PONTO TURISTICO - - - - - ----->
 				<div class="col-sm-6">
-					<div id="map-container-google-1" class="z-depth-1-half map-container">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.3121905074813!2d-35.203159950094125!3d-5.81151155891361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b2fff6a663957b%3A0x620f8cf8989865a3!2sAcademia%20Jaime%20Louren%C3%A7o!5e0!3m2!1spt-BR!2sbr!4v1604182135912!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+					<img class="img-fluid" src="midia/img1.png">
+					<div class="info bga col-sm-5 p-3">
+						<p class="text text-light">
+							<a class="h6">
+								PRAIA DE GALINHOS
+							</a>
+							</br>GALINHOS
+						</p>
+						<a class="text-light" href="pont1.html">
+							<button type="button" class="btn btn-sm btn-secondary btn-block">
+								SABER MAIS
+							</button>
+						</a>
 					</div>
-					<br><br>
 				</div>
-				
-				<div class="col-sm-6 text-center">	<!-- icons -->
-					
-					<h1 class="title font-weight-bold text-dark">Contato</h1>					
-					<a href="http://lattes.cnpq.br/4478284811855294" target="_blank"><h3 id="lattes">Currículo lattes</h3></a><br>					
-					<a href="https://www.facebook.com/profile.php?id=100006542765469" target="_blank"><i id="icon" class="fa fa-facebook-square"></i></a>
-					<a href="https://api.whatsapp.com/send?phone=5584994620745" target="_blank"><i id="icon" class="fa fa-whatsapp"></i></a>
-					<a href="https://www.instagram.com/pxavier0/" target="_blank"><i id="icon" class="fa fa-instagram"></i></a><br>
-					<a href="https://github.com/px013" target="_blank"><i id="icon" class="fa fa-github-square"></i></a>
-					<a href="https://www.youtube.com/channel/UCEdVpqtM1v8XV_Xpi6VmIQA?view_as=subscriber" target="_blank"><i id="icon" class="fa fa-youtube-square"></i></a>
-					<a href="https://www.linkedin.com/in/paulo-xavier-b93781120/" target="_blank"><i id="icon" class="fa fa-linkedin-square"></i></a>
-					<p class="text text-center font-weight-bold">Academia Jaime Lourenço - LRRobótica<br><br>
-					R. Dr. Nilo Bezerra Ramalho, 1706 - Tirol<br>
-					Natal - RN, 59015-300</p>
-					<h4>e-mail: <b>pxavier@ufrn.edu.br</b></h4>
-					
+				<!----- - - - - - DADOS DO 2º (SEGUNDO) PONTO TURISTICO - - - - - ----->
+				<div class="col-sm-6">
+					<img class="img-fluid" src="midia/img2.png">
+					<div class="info bga col-sm-5 p-3">
+						<p class="text text-light">
+							<a class="h6">
+								MORRO DO CARECA
+							</a>
+							</br>PONTA NEGRA
+						</p>
+						<a class="text-light" href="pont1.html">
+							<button type="button" class="btn btn-sm btn-secondary btn-block">
+								SABER MAIS
+							</button>
+						</a>
+					</div>
 				</div>
-				
-			</div>			
+				<!----- - - - - - DADOS DO 3º (TERCEIRO) PONTO TURISTICO - - - - - ----->
+				<div class="col-sm-6">
+					<img class="img-fluid" src="midia/img3.png">
+					<div class="info bga col-sm-5 p-3">
+						<p class="text text-light">
+							<a class="h6">
+								PRAIA DE PIPA
+							</a>
+							</br>TIBAU DO SUL
+						</p>
+						<a class="text-light" href="pont1.html">
+							<button type="button" class="btn btn-sm btn-secondary btn-block">
+								SABER MAIS
+							</button>
+						</a>
+					</div>
+				</div>
+				<!----- - - - - - DADOS DO 4º (QUARTO) PONTO TURISTICO - - - - - ----->
+				<div class="col-sm-6">
+					<img class="img-fluid" src="midia/img4.png">
+					<div class="info bga col-sm-5 p-3">
+						<p class="text text-light">
+							<a class="h6">
+								PRAIA DE MARACAJAÚ
+							</a>
+							</br>MAXARANGUAPE
+						</p>
+						<a class="text-light" href="pont1.html">
+							<button type="button" class="btn btn-sm btn-secondary btn-block">
+								SABER MAIS
+							</button>
+						</a>
+					</div>
+				</div>
+			
+			</div>
 		</div>
 
-		<!--- Footer --->
-		<footer id="ft" class="text text-center text-light">
-			<a><a href="http://lattes.cnpq.br/4478284811855294"><i class="fa fa-bolt text-warning"></i></a> Copyright © 2019 - 2021 | Xavier</a>
+		<!----- Footer (RODAPÉ) ----->
+		<footer class="bga foot text text-center text-light">
+			<a><a href="http://"><i class="fa fa-heart text-alert"></i></a> Copyright © 2022 | Myllene</a>   <!---add site de -easter-egg--->
 		</footer>
 
 		<script src="index.js"></script>
