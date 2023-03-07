@@ -1,0 +1,103 @@
+/*___Geral___*/
+.container-fluid{
+	padding: 120px 0px 120px 0px;
+}
+.title{
+	font-family: merienda;
+	font-size: 51px;
+	text-align: center;
+	margin-bottom: 50px;
+	letter-spacing: 0.9px;
+	text-shadow: 1px 2px 2px #daa520;
+}
+.text{
+	font-family: lora;
+	font-size: 15px;
+	text-align: left;
+	letter-spacing: 0.9px;
+	text-shadow: 1px 2px 2px #gray;
+}
+
+#Habilidades, #Fotos{
+	background: url(midia/bgb.png) center fixed;
+	color: #232323;
+}
+#Sobre, #Contato{
+	background: url(midia/bga.png) center fixed;
+	color: #cdcdcd;
+}
+
+/* Seção Inicial */
+#Inicio{
+	background: url(midia/bgi.png) no-repeat center fixed;
+	background-size: cover;
+	padding-top: 180px;
+	padding-bottom: 180px;
+}
+.img_perfil{
+	background: url(midia/foto.png) no-repeat center;
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	margin: 0px auto 40px auto;
+	border-radius: 45%;
+}
+
+/* Seção Sobre */
+.s{
+	max-width: 90%;
+	max-height: 90%;
+	border-radius: 10%;
+	margin: 30px 3% 15px 3%;
+}
+
+/* Seção Habilidades */
+.sk{
+	width:75px;
+	margin: 0px 33% 15px 33%;
+}
+.hab{
+	background: url(midia/bgl.png) center fixed;
+	padding: 30px 25px 40px 25px;
+	border-radius: 25px;
+	text-shadow: 1px 0px 0px #daa520;
+}
+
+/* Seção Contato */
+.map-container{
+	background-color: rgb(35,35,35,0.6);
+	height: 500px;
+	overflow: hidden;
+	position: relative;
+	padding-bottom: 56.25%;
+	border: 3px double #fcfcfc;
+	border-radius: 10px;
+}
+.map-container iframe{
+	left: 1px;
+	top: 1px;
+	width: 99.6%;
+	height: 99.5%;
+	position:absolute;
+	border-radius: 6px;
+}
+#icon{
+	font-size: 40px;
+	color: #000;
+	margin: 0px 20px 40px 20px;
+	text-shadow: 1px 1px 2px #daa520;
+}
+
+#lattes{
+	font-family: lora;
+	color: #6363ff;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-shadow: 1px 2px 1px #daa520;
+}
+
+/* Footer */
+#ft{
+	background-color: #101010;
+	padding: 80px 0px 30px 0px;
+}
