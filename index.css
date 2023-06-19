@@ -1,46 +1,37 @@
 /* Geral */
 .container-fluid {
-	padding: 120px 0;
+	padding: 120px 0px 120px 0px;
 }
-
 .azul {
 	background: url(midia/bgazul.png) center fixed;
 }
-
 .branco {
 	background: url(midia/bgbranco.png) center fixed;
 }
-
 .area {
 	background-color: black;
-	padding: 20px 10px;
+	padding: 20px 10px 20px 10px;
 	border: 3px double silver;
-	border-radius: 10px 30px 0 30px;
+	border-radius: 10px 30px 0px 30px;
 }
-
 .title,.text {
 	text-align: center;
 	font-family: georgia;
 	letter-spacing: 0.9px;
 	text-shadow: 0.5px 0.5px 0px black, -0.5px -0.5px 0px black, 0.5px -0.5px 0px black, -0.5px 0.5px 0px black, 0 0 2px white, 0 0 2px white;
 }
-
 .title {
 	font-size: 36px;
 }
-
 .text {
 	font-size: 18px;
 }
-
 .vv,.vs {
 	border-radius: 2%;
 }
-
 .vv {
 	border: 1px dashed gold;
 }
-
 .vs {
 	border: 2px dotted red;
 }
@@ -51,15 +42,13 @@
 	padding-right: 25px;
 	box-shadow: 1px 2px 4px #232323;
 }
-
 #nav_item {
 	font-size: 15px;
 	letter-spacing: 1px;
 	color: white;
-	margin: 0 5px;
+	margin: 0px 5px 0px 5px;
 	text-shadow: 1px 1px 2px rgb(89, 0, 187);
 }
-
 #nav_item:hover {
 	color: #212121;
 	transform: scale(1.18);
@@ -78,21 +67,18 @@
 	margin: 0px auto 50px auto;
 	border-radius: 50%;
 }
-
 .obrn3,.obrn4 {
-	background-size: cover;
+	background-size: contain;
 	width: auto;
 	height: 320px;
-	margin: 0 auto;
-	border-radius: 1%;
+	margin: 0px auto 0px auto;
+	border-radius: 2%;
 }
-
 .obrn3 {
-	background-image: url(midia/1.png);
+	background: url(midia/1.jpg) no-repeat center;
 }
-
 .obrn4 {
-	background-image: url(midia/2.png);
+	background: url(midia/2.jpg) no-repeat center;
 }
 
 /* Seção Portfólio */
@@ -100,27 +86,23 @@
 	position: absolute;
 	right: 0;
 }
-
 .img {
 	max-width: 100%;
 	min-width: 100%;
 	min-height: 180px;
 	max-height: 180px;
 	margin: 10px 0;
-	box-shadow: 0 1px 5px grey;
+	box-shadow: 0px 1px 5px grey;
 }
-
 .imgf {
 	max-width: 100%;
 	max-height: 100%;
 }
-
 .text_port {
 	color: #fcfcfc;
 	margin: 10px 15px;
 	opacity: 0;
 }
-
 .text_port:hover {
 	background: rgba(0, 0, 0, 0.8);
 	opacity: 1;
@@ -133,26 +115,22 @@
 	margin: 0 25px;
 	text-shadow: 2px 2px 1px rgb(89, 0, 187);
 }
-
 #iconL {
 	font-size: 25px;
 	color: rgba(255, 108, 14);
 	margin: 0;
 	text-shadow: 2px 1px 1px yellow;
 }
-
 #iconX:hover,#iconL:hover {
 	transform: scale(1.2);
 	-ms-transform: scale(1.2);
 	-webkit-transform: scale(1.2);
 	transition-duration: 0.4s;
 }
-
 .lattes {
 	margin: 0 25px;
 	text-shadow: 1px 1px 2px rgb(89, 0, 187);
 }
-
 .map-container {
 	background-color: rgba(35, 35, 35, 0.6);
 	height: 440px;
@@ -162,7 +140,6 @@
 	border: 3px double #fcfcfc;
 	border-radius: 10px;
 }
-
 .map-container iframe {
 	left: 1px;
 	top: 1px;
@@ -179,7 +156,6 @@
 	max-height: 320px;
 	margin-left: 4%;
 }
-
 .img_carossel {
 	margin: 0 15px 15px 0;
 	box-shadow: 1px 2px 4px #232323;
