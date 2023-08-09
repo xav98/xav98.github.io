@@ -26,6 +26,14 @@
 .text {
 	font-size: 18px;
 }
+.log {
+	font-family: comic sans;
+	font-size: 22px;
+	color: yellow;
+}
+.ins {
+	text-shadow: 0.5px 0.5px 0px black, -0.5px -0.5px 0px black, 0.5px -0.5px 0px black, -0.5px 0.5px 0px black;
+}
 .vv,.vs {
 	border-radius: 2%;
 }
@@ -66,19 +74,6 @@
 	height: 220px;
 	margin: 0px auto 50px auto;
 	border-radius: 50%;
-}
-.obrn3,.obrn4 {
-	background-size: contain;
-	width: auto;
-	height: 320px;
-	margin: 0px auto 0px auto;
-	border-radius: 2%;
-}
-.obrn3 {
-	background: url(midia/1.jpg) no-repeat center;
-}
-.obrn4 {
-	background: url(midia/2.jpg) no-repeat center;
 }
 
 /* Seção Portfólio */
