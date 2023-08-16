@@ -16,14 +16,15 @@
 }
 .title,.text {
 	text-align: center;
-	font-family: georgia;
 	letter-spacing: 0.9px;
 	text-shadow: 0.5px 0.5px 0px black, -0.5px -0.5px 0px black, 0.5px -0.5px 0px black, -0.5px 0.5px 0px black, 0 0 2px white, 0 0 2px white;
 }
 .title {
+	font-family: georgia;
 	font-size: 36px;
 }
 .text {
+	font-family: serif;
 	font-size: 18px;
 }
 .log {
