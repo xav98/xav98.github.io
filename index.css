@@ -17,23 +17,21 @@
 .title,.text {
 	text-align: center;
 	letter-spacing: 0.9px;
-	text-shadow: 0.5px 0.5px 0px black, -0.5px -0.5px 0px black, 0.5px -0.5px 0px black, -0.5px 0.5px 0px black, 0 0 2px white, 0 0 2px white;
 }
 .title {
 	font-family: georgia;
 	font-size: 36px;
+	text-shadow: 0.5px 0.5px 0px black, -0.5px -0.5px 0px black, 0.5px -0.5px 0px black, -0.5px 0.5px 0px black, 0 0 2px white, 0 0 2px white;
 }
 .text {
 	font-family: serif;
 	font-size: 18px;
+	text-shadow: 1px 1px 1px black;
 }
 .log {
 	font-family: comic sans;
 	font-size: 22px;
 	color: yellow;
-}
-.ins {
-	text-shadow: 0.5px 0.5px 0px black, -0.5px -0.5px 0px black, 0.5px -0.5px 0px black, -0.5px 0.5px 0px black;
 }
 .vv,.vs {
 	border-radius: 2%;
