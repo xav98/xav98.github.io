@@ -28,11 +28,7 @@
 	font-size: 18px;
 	text-shadow: 1px 1px 1px black;
 }
-.log {
-	font-family: comic sans;
-	font-size: 22px;
-	color: yellow;
-}
+
 .vv,.vs {
 	border-radius: 2%;
 }
@@ -54,12 +50,12 @@
 #nav_item {
 	font-size: 15px;
 	letter-spacing: 1px;
-	color: white;
+	color: #212121;
 	margin: 0px 5px 0px 5px;
 	text-shadow: 1px 1px 2px rgb(89, 0, 187);
 }
 #nav_item:hover {
-	color: #212121;
+	color: white;
 	transform: scale(1.18);
 	-ms-transform: scale(1.18);
 	-webkit-transform: scale(1.18);
@@ -74,7 +70,7 @@
 	width: 220px;
 	height: 220px;
 	margin: 0px auto 50px auto;
-	border-radius: 50%;
+	border-radius: 5%;
 }
 
 /* Seção Portfólio */
@@ -95,9 +91,9 @@
 	max-height: 100%;
 }
 .vid {
-	background-color: black;
-	max-width: 100%;
-	min-width: 100%;
+	background-color: grey;
+	max-width: 80%;
+	min-width: 80%;
 	min-height: 180px;
 	max-height: 180px;
 	margin: 10px 0;
@@ -135,23 +131,6 @@
 .lattes {
 	margin: 0 25px;
 	text-shadow: 1px 1px 2px rgb(89, 0, 187);
-}
-.map-container {
-	background-color: rgba(35, 35, 35, 0.6);
-	height: 440px;
-	overflow: hidden;
-	position: relative;
-	padding-bottom: 56.25%;
-	border: 3px double #fcfcfc;
-	border-radius: 10px;
-}
-.map-container iframe {
-	left: 1px;
-	top: 1px;
-	width: 99.6%;
-	height: 99.5%;
-	position: absolute;
-	border-radius: 6px;
 }
 
 /* Seção Criacoes */
