@@ -52,7 +52,7 @@
 	letter-spacing: 1px;
 	color: #212121;
 	margin: 0px 5px 0px 5px;
-	text-shadow: 1px 1px 2px rgb(89, 0, 187);
+	text-shadow: 1px 1px 2px #fcfcfc;
 }
 #nav_item:hover {
 	color: white;
@@ -60,7 +60,7 @@
 	-ms-transform: scale(1.18);
 	-webkit-transform: scale(1.18);
 	transition-duration: 0.4s;
-	text-shadow: 1px 1px 2px #fcfcfc;
+	text-shadow: 1px 1px 2px rgb(89, 0, 18);
 }
 
 /* Seção Inicial */
