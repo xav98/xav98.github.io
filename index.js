@@ -4,6 +4,5 @@ $(document).ready(function(){
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 1200,
-	  arrows: false,
     });
   });
