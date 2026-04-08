@@ -66,6 +66,11 @@
 	border-radius: 50%;
 }
 
+.imgp{
+	width:180px;
+	margin: 0px 30% 15px 30%;
+}
+
 /* Seção Habilidades */
 .sk{
 	width:150px;
@@ -107,8 +112,11 @@
 	box-shadow: 0px 1px 5px grey;
 }
 .imgf{
-	width:180px;
-	margin: 0px 30% 15px 30%;
+	max-width: 100%;
+	min-width: 100%;
+	min-height: 100%;
+	max-height: 100%;
+	margin: 0px 0px 0px 0px;
 }
 .text_port{
 	color: #fcfcfc;
@@ -123,17 +131,29 @@
 
 /* Seção Contato */
 .sob{
-	background: url(midia/bgbranco.png) center fixed;
 	padding: 30px 25px 40px 25px;
-	border-radius: 25px;
 	text-shadow: 0.5px 0.5px 1px #a0a0a0;
+}
+.iconi{
+	color: #ff00ff;
+	text-shadow: 0.5px 1px 5px grey;
+}
+.iconw{
+	color: #00ff00;
+	text-shadow: 0.5px 1px 5px blue;
+}
+.icony{
+	color: #ff0000;
+	text-shadow: 0.5px 1px 5px black;
+}
+.icong{
+	color: #000;
+	text-shadow: 0.5px 1px 5px gold;
 }
 #icon{
 	font-size: 50px;
-	color: #008a00;
 	opacity: 0.8;
 	margin: 0px 25px 45px 25px;
-	text-shadow: 1px 2px 3px grey;
 }
 #icon:hover{
 	opacity: 1;
