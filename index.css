@@ -68,13 +68,20 @@
 
 .imgp{
 	width:180px;
-	margin: 0px 27% 15px 27%;
+	display: block;
+	margin: auto;
 }
 
 /* Seção Habilidades */
-.sk{
-	width:150px;
-	margin: 0px 25% 15px 25%;
+.taxon{
+	width: 360px;
+	display: block;
+	margin: auto;
+}
+.filo{
+	width:160px;
+	display: block;
+	margin: auto;
 }
 .hab{
 	background: url(midia/bglaranja.png) center fixed;
