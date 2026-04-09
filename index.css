@@ -169,9 +169,9 @@ html, body {
 	text-shadow: 0px 0px 5px gold;
 }
 #icon{
-	font-size: 46px;
+	font-size: 42px;
 	opacity: 0.8;
-	margin: 0px 15px 45px 15px;
+	margin: 0px 10px 40px 10px;
 }
 #icon:hover{
 	opacity: 1;
