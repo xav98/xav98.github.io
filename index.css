@@ -76,6 +76,7 @@ html, body {
 	width:180px;
 	display: block;
 	margin: auto;
+	border-radius: 50%;
 }
 
 /* Seção Habilidades */
