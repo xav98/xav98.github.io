@@ -71,6 +71,15 @@ html, body {
 	margin: 0px auto 50px auto;
 	border-radius: 50%;
 }
+.img_intro{
+	display: block;
+	margin: auto auto 15px auto;
+	max-width: 30%;
+	min-width: 30%;
+	min-height: 200px;
+	max-height: 200px;
+	border-radius: 10%;
+}
 
 .imgp{
 	width:180px;
