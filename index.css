@@ -22,7 +22,7 @@ html, body {
 	letter-spacing: 0.9px;
 }
 
-#Panoramica, #Projetos, #Conclusoes, #Referencias{
+#Intro, #Panoramica, #Projetos, #Conclusoes, #Referencias{
 	background: url(midia/bgbranco.png) center fixed;
 	color: #212121;
 	text-shadow: 0.5px 0.5px 0px #212121;
