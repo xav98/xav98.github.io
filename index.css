@@ -129,10 +129,10 @@ html, body {
 .img{
 	max-width: 100%;
 	min-width: 100%;
-	min-height: 180px;
-	max-height: 180px;
+	min-height: 200px;
+	max-height: 200px;
 	margin: 10px 0px 10px 0px;
-	box-shadow: 0px 1px 5px grey;
+	box-shadow: 0.5px 1px 5px grey;
 }
 .imgf{
 	max-width: 100%;
@@ -200,6 +200,11 @@ html, body {
 }
 .img_carossel{
 	margin: 0px 15px 15px 100px;
+	box-shadow: 1px 2px 4px #232323;
+	border-radius: 10%;
+}
+.img_anex{
+	margin: 0px 15px 15px 10px;
 	box-shadow: 1px 2px 4px #232323;
 	border-radius: 10%;
 }
