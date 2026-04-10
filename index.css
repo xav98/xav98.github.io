@@ -74,11 +74,11 @@ html, body {
 .img_intro{
 	display: block;
 	margin: auto auto 15px auto;
-	max-width: 30%;
-	min-width: 30%;
+	max-width: 50%;
+	min-width: 50%;
 	min-height: auto;
 	max-height: auto;
-	border-radius: 10%;
+	border-radius: 15%;
 }
 
 .imgp{
