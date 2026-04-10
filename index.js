@@ -1,8 +1,8 @@
 $(document).ready(function(){
     $('.slick').slick({
-      slidesToShow: 3,
+      slidesToShow: 2,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 1200,
+      autoplaySpeed: 2000,
     });
   });
