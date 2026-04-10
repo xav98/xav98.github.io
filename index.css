@@ -193,12 +193,13 @@ html, body {
 /*Seção Criacoes*/
 .slick{
 	width: 92%;
+	max-width: 92%;
 	height: 100%;
-	max-height: 320px;
+	max-height: auto;
 	margin-left: 4%;
 }
 .img_carossel{
-	margin: 0px 15px 15px 0px;
+	margin: 0px 15px 15px 100px;
 	box-shadow: 1px 2px 4px #232323;
 	border-radius: 10%;
 }
