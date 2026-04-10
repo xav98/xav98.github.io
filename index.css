@@ -76,8 +76,8 @@ html, body {
 	margin: auto auto 15px auto;
 	max-width: 30%;
 	min-width: 30%;
-	min-height: 30%;
-	max-height: 30%;
+	min-height: auto;
+	max-height: auto;
 	border-radius: 10%;
 }
 
