@@ -100,19 +100,11 @@ html, body {
 	margin: auto;
 }
 .hab{
-	background: url(midia/bglaranja.png) center fixed;
+	background: #efefef;
+	color: black;
 	padding: 30px 25px 40px 25px;
 	border-radius: 25px;
-	text-shadow: 0.5px 0.5px 1px #a0a0a0;
-}
-.pa1{
-	background: url(midia/pa1.png) no-repeat center;
-}
-.pa2{
-	background: url(midia/pa2.png) no-repeat center;
-}
-.pa3{
-	background: url(midia/pa3.png) no-repeat center;
+	text-shadow: 0px 0px 1px #0000aa;
 }
 .h1, .h2, .h3, .h4, .pa1, .pa2, .pa3{
 	background-size: cover;
