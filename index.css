@@ -21,7 +21,6 @@ html, body {
 	font-size: 14px;
 	letter-spacing: 0.9px;
 }
-
 #Intro, #Panoramica, #Projetos, #Conclusoes, #Referencias{
 	background: url(midia/bgbranco.png) center fixed;
 	color: #212121;
@@ -32,7 +31,6 @@ html, body {
 	color: #fcfcfc;
 	text-shadow: 0.5px 0.5px 0px #fcfcfc;
 }
-
 /* Barra de Navegação */
 #barra_nav{
 	background-color: rgba(0, 0, 120);
@@ -56,7 +54,6 @@ html, body {
 	transition-duration: 0.4s;
 	text-shadow: 0.5px 0.5px 2px #000;
 }
-
 /* Seção Inicial */
 #Inicio{
 	background-color: #66ac66;
@@ -80,15 +77,13 @@ html, body {
 	max-height: auto;
 	border-radius: 15%;
 }
-
 .imgp{
 	width:180px;
 	display: block;
 	margin: auto;
 	border-radius: 50%;
 }
-
-/* Seção Habilidades */
+/* Seção Conteúdos */
 .taxon{
 	width: 50%;
 	display: block;
@@ -112,8 +107,6 @@ html, body {
 	height: 200px;
 	margin: 0px auto 10px auto;
 }
-
-/* Seção Portfólio */
 #bp{
 	position:absolute;
 	right:0;
@@ -143,8 +136,7 @@ html, body {
 	opacity: 1;
 	transition-duration: 0.6s;
 }
-
-/* Seção Contato */
+/* Seção Sobre */
 .sob{
 	padding: 30px 25px 40px 25px;
 	text-shadow: 0.5px 0.5px 1px #a0a0a0;
@@ -181,8 +173,7 @@ html, body {
 	-webkit-transform: scale(1.2);	/* Safari */
 	transition-duration: 0.4s;
 }
-
-/*Seção Criacoes*/
+/*Seção Anexos*/
 .slick{
 	width: 100%;
 	max-width: 100%;
@@ -194,7 +185,6 @@ html, body {
 	box-shadow: 1px 2px 4px #232323;
 	border-radius: 10%;
 }
-
 /* Footer */
 .ft{
 	background-color: #111;
