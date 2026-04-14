@@ -183,7 +183,7 @@ html, body {
 .img_carossel{
 	margin: 0px 15px 15px 10px;
 	box-shadow: 1px 2px 4px #232323;
-	border-radius: 10%;
+	border-radius: 3%;
 }
 /* Footer */
 .ft{
