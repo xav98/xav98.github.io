@@ -17,19 +17,19 @@ html, body {
 	text-shadow: 2px 2px 2px #9a9a9a;
 }
 .text{
-	font-family: nunito;
+	font-family: times;
 	font-size: 14px;
 	letter-spacing: 0.9px;
 }
 #Intro, #Panoramica, #Projetos, #Conclusoes, #Referencias{
 	background: url(midia/bgbranco.png) center fixed;
 	color: #212121;
-	text-shadow: 0.5px 0.5px 0px #212121;
+	text-shadow: 0px 0px 1px #212121;
 }
 #Sobre, #Conteudo, #Agradecimentos, #Anexos{
 	background: url(midia/bgazul.png) center fixed;
 	color: #fcfcfc;
-	text-shadow: 0.5px 0.5px 0px #fcfcfc;
+	text-shadow: 0px 0px 1px #fcfcfc;
 }
 /* Barra de Navegação */
 #barra_nav{
@@ -107,10 +107,6 @@ html, body {
 	height: 200px;
 	margin: 0px auto 10px auto;
 }
-#bp{
-	position:absolute;
-	right:0;
-}
 .img{
 	max-width: 100%;
 	min-width: 100%;
@@ -119,22 +115,15 @@ html, body {
 	margin: 10px 0px 10px 0px;
 	box-shadow: 0.5px 1px 5px grey;
 }
-.imgf{
-	max-width: 100%;
-	min-width: 100%;
-	min-height: 100%;
-	max-height: 100%;
-	margin: 0px 0px 0px 0px;
-}
 .text_port{
 	color: #fcfcfc;
 	margin: 10px 15px 10px 15px;
 	opacity: 0;
 }
 .text_port:hover{
-	background: rgba(0, 0, 0, 0.8);
+	background: rgba(0, 0, 0, 0.7);
 	opacity: 1;
-	transition-duration: 0.6s;
+	transition-duration: 1.2s;
 }
 /* Seção Sobre */
 .sob{
@@ -174,6 +163,11 @@ html, body {
 	transition-duration: 0.4s;
 }
 /*Seção Anexos*/
+.refer{
+	font-family: calibri;
+	font-size: 11px;
+	letter-spacing: 0.9px;
+}
 .slick{
 	width: 100%;
 	max-width: 100%;
