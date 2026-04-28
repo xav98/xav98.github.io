@@ -121,7 +121,7 @@ html, body {
 	opacity: 0;
 }
 .text_port:hover{
-	background: rgba(0, 0, 0, 0.7);
+	background: rgba(0, 0, 0, 0.9);
 	opacity: 1;
 	transition-duration: 1.2s;
 }
